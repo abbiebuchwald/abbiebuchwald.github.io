@@ -1,0 +1,94 @@
+*{
+    margin: auto;
+}    
+a{
+    text-decoration:none;
+    color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    display: block;
+    height:auto;
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: auto;
+}
+#back{
+    width: 10%;
+    margin-left: 1vw;
+    margin-top: -2vw;
+}
+img{
+    border-radius: 25px;
+}
+#flex-container{
+    display: flex;
+    margin: 2vw;
+}
+#flex-item1{
+    display:flex;
+}
+#flex-item2{
+    display:flex;
+    font-size: 1.25vw;
+}
+#flex-item3{
+    display:flex;
+    font-size: 1.25vw;
+}
+#flex-item4{
+    display:flex;
+    font-size: 1.25vw;
+}
+#flex-item5{
+    display:flex;
+    font-size: 1.25vw;
+}
+h3{
+    text-align: center;
+    color: blue;
+    font-size: 1.25vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+#flex-container2{
+    display:flex;
+}
+#fiesta{
+    width: 30%;
+    margin-top: 0%;
+}
+#cat{
+    width: 20%;
+    margin-top: 0%;
+
+}
+#avl{
+    width: 25%;
+    margin-top: 0%;
+
+}
+#flex-container3{
+    display: flex;
+}
+#SJ{
+    width: 25%;
+    margin-top: 1vw;
+}
+#CO{
+    width: 25%;
+    margin-top: 3vw;
+}
+#salem{
+    width: 30%;
+   margin-top: -10vw;
+   margin-bottom:5vw;
+}
+footer{
+    text-align: center;
+    color: blue;
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
