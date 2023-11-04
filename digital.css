@@ -98,11 +98,25 @@ h4{
 #bblue{
     width: 30%;
     margin-right: 1vw;
+    margin-top: 5vw;
 }
 #byello{
     width: 30%;
     margin-left: 1vw;
     margin-right:4vw;
+    margin-top: 5vw;
+}
+#type-flex{
+    display:flex;
+    font-size: 1.25vw;
+}
+.typecover{
+    display:flex;
+    width: 30%;
+}
+.typeasimage{
+    display:flex;
+    width: 30%;
 }
 #flex-container5{
     display: inline-flex;
