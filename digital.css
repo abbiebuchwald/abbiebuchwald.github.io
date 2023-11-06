@@ -110,13 +110,19 @@ h4{
     display:flex;
     font-size: 1.25vw;
 }
+.flex-itemtype1{
+    display:flex;
+}
 .typecover{
     display:flex;
-    width: 30%;
+    width: 20%;
+}
+.flex-itemtype2{
+    display:flex;
 }
 .typeasimage{
     display:flex;
-    width: 30%;
+    width: 20%;
 }
 #flex-container5{
     display: inline-flex;
