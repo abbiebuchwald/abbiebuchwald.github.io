@@ -14,7 +14,7 @@ a{
     margin-right: auto;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     .logo{
         margin-top: 5vw;
         margin-bottom: 2vw;
@@ -32,7 +32,7 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-item2{
         display:flex;
         font-size: 2.5vw;
@@ -42,7 +42,7 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-item3{
         display:flex;
         font-size: 2.5vw;
@@ -52,7 +52,7 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-item4{
         display:flex;
         font-size: 2.5vw;
@@ -62,20 +62,20 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-item5{
         display:flex;
         font-size: 2.5vw;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     nav{ 
         margin-right: 2vw;
        
 }
 
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #main-content{
         display: flex;
      
@@ -86,13 +86,19 @@ a{
     width: 70%;
     border-radius: 75px;
 }
+@media only screen and (max-width: 1080px) {
+    .workmenu{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}
 #flex-container2{
     display: flex;
     margin-top: 5vw;
     margin-left:5vw;
     margin-right: 5vw;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-container2{
         display: inline-block;
         font-size: 2.5vw;
@@ -108,7 +114,7 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     .worktext{
         font-size: 2vw;
 }
@@ -152,7 +158,7 @@ a{
     margin-top: 5vw;
     
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     #flex-container3{
         display: inline-block;
         font-size: 2.5vw;
@@ -192,7 +198,7 @@ footer{
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1080px){
     footer{
         font-size: 2.25vw;
         margin-bottom: 3vw;
