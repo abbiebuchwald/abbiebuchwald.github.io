@@ -13,6 +13,13 @@ a{
     margin-left: 5vw;
     margin-right: auto;
 }
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
 #flex-container{
     display: flex;
     margin: 2vw;
@@ -24,17 +31,48 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item2{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
 #flex-item3{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item3{
+        display:flex;
+        font-size: 2.5vw;
+}
 }
 #flex-item4{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item4{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
 #flex-item5{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item5{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+@media only screen and (max-width: 1080px){
+    nav{ 
+        margin-right: 2vw;
+       
+}
+
 }
 img{
     border-radius: 25px;
@@ -43,6 +81,12 @@ img{
     width: 10%;
     margin-left: 1vw;
     margin-top: -2vw;
+}
+@media only screen and (max-width: 1080px){
+    #back{
+        width: 15%;
+        margin-left: 1.5vw;
+}
 }
 h4{
     text-align: center;
@@ -54,6 +98,11 @@ h4{
     margin-left: 15vw;
     margin-right: 15vw;
 }
+@media only screen and (max-width: 1080px){
+    h4{
+       font-size: 2.5vw;
+}
+}
 #p1{
     text-align: center;
     color: blue;
@@ -63,6 +112,13 @@ h4{
     margin-bottom: 5vw;
     margin-left: 15vw;
     margin-right: 15vw;
+}
+@media only screen and (max-width: 1080px){
+    #p1{
+       font-size: 2.5vw;
+       margin-left: 10vw;
+       margin-right: 10vw;
+}
 }
 #p2{
     text-align: center;
@@ -74,7 +130,13 @@ h4{
     margin-left: 25vw;
     margin-right: 25vw;
 }
-
+@media only screen and (max-width: 1080px){
+    #p2{
+       font-size: 2.5vw;
+       margin-left: 15vw;
+       margin-right: 15vw;
+}
+}
 #flex-container2{
     display: flex;
 }
@@ -99,4 +161,10 @@ footer{
     color: blue;
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
 }
