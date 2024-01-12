@@ -35,7 +35,7 @@ a{
 @media only screen and (max-width: 1080px){
     #flex-item2{
         display:flex;
-        font-size: 2.5vw;
+        font-size: 3vw;
 }
 }
 #flex-item3{
@@ -45,7 +45,7 @@ a{
 @media only screen and (max-width: 1080px){
     #flex-item3{
         display:flex;
-        font-size: 2.5vw;
+        font-size: 3vw;
 }
 }
 #flex-item4{
@@ -55,7 +55,7 @@ a{
 @media only screen and (max-width: 1080px){
     #flex-item4{
         display:flex;
-        font-size: 2.5vw;
+        font-size: 3vw;
 }
 }
 #flex-item5{
@@ -65,12 +65,12 @@ a{
 @media only screen and (max-width: 1080px){
     #flex-item5{
         display:flex;
-        font-size: 2.5vw;
+        font-size: 3vw;
 }
 }
 @media only screen and (max-width: 1080px){
     nav{ 
-        margin-right: 2vw;
+        margin-right: 3vw;
        
 }
 

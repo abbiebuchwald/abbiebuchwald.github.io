@@ -16,6 +16,13 @@ img{
     margin-left: 5vw;
     margin-right: auto;
 }
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
 #flex-container{
     display: flex;
     margin: 2vw;
@@ -23,26 +30,63 @@ img{
 #flex-item1{
     display:flex;
 }
+
 #flex-item2{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item2{
+        display:flex;
+        font-size: 3vw;
+}
 }
 #flex-item3{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item3{
+        display:flex;
+        font-size: 3vw;
+}
+}
 #flex-item4{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item4{
+        display:flex;
+        font-size: 3vw;
+}
 }
 #flex-item5{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item5{
+        display:flex;
+        font-size: 3vw;
+}
+}
+@media only screen and (max-width: 1080px){
+    nav{ 
+        margin-right: 3vw;
+       
+}
+}
 #back{
     width: 10%;
     margin-left: 1vw;
     margin-top: -2vw;
+}
+@media only screen and (max-width: 1080px){
+    #back{
+        width: 15%;
+        margin-left: 1.5vw;
+}
 }
 h3{
     text-align: center;
@@ -52,10 +96,16 @@ h3{
     margin-left: 15vw;
     margin-right: 15vw;
 }
+@media only screen and (max-width: 1080px){
+    h3{
+       font-size: 2.5vw;
+}
+}
 #flex-container2{
     display: inline-flex;
     margin: 4vw;
 }
+
 #shoe{
     width:30%;
 }
@@ -88,4 +138,10 @@ footer{
     color: blue;
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
 }

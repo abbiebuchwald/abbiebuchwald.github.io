@@ -13,6 +13,13 @@ a{
     margin-left: 5vw;
     margin-right: auto;
 }
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
 #flex-container{
     display: flex;
     margin: 2vw;
@@ -24,10 +31,59 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item2{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+#flex-item3{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item3{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+#flex-item4{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item4{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+#flex-item5{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item5{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+@media only screen and (max-width: 1080px){
+    nav{ 
+        margin-right: 2vw;
+       
+}
+
+}
 #back{
     width: 10%;
     margin-left: 1vw;
     margin-top: -2vw;
+}
+@media only screen and (max-width: 1080px){
+    #back{
+        width: 15%;
+        margin-left: 1.5vw;
+}
 }
 #flex-container2, #flex-container3, #flex-container4{
     display: inline-flex;

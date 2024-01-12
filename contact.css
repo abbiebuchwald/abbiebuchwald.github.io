@@ -7,46 +7,92 @@ a{
     color:blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.logo{
-        display: block;
-        height:auto;
-        width: 50%;
-        margin-left: 5vw;
-        margin-right: auto;
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
     }
-    #flex-container{
-        display: flex;
-        margin: 2vw;
-    }
-    #flex-item1{
-        display:flex;
-    }
+}
+#flex-container{
+    display: flex;
+    margin: 2vw;
+}
+#flex-item1{
+    display:flex;
+}
+#flex-item2{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
     #flex-item2{
         display:flex;
-        font-size: 1.25vw;
-    }
+        font-size: 3vw;
+}
+}
+#flex-item3{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
     #flex-item3{
         display:flex;
-        font-size: 1.25vw;
-    }
+        font-size: 3vw;
+}
+}
+#flex-item4{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
     #flex-item4{
         display:flex;
-        font-size: 1.25vw;
-    }
+        font-size: 3vw;
+}
+}
+#flex-item5{
+    display:flex;
+    font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
     #flex-item5{
         display:flex;
-        font-size: 1.25vw;
-    }
+        font-size: 3vw;
+}
+}
+@media only screen and (max-width: 1080px){
+    nav{ 
+        margin-right: 3vw;
+       
+}
+
+}
     h3{
         text-align: center;
         color: blue;
         font-size: 2vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    @media only screen and (max-width: 1080px){
+        h3{ 
+            font-size: 4vw;
+            margin-left: 20vw;
+            margin-right: 20vw;
+            margin-bottom: 30vw;
+            margin-top: 20vw;
+        }
+    }
     .contact{
         margin-top: 2vw;
         width: 50%;
         display: flex;
+    }
+    @media only screen and (max-width: 1080px){
+        .contact{
+            width: 75%;
+            margin-top: 10vw;
+        }
     }
     footer{
         margin-top: 5vw;
@@ -54,4 +100,10 @@ a{
         color: blue;
         font-size: 1vw;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    @media only screen and (max-width: 1080px){
+        footer{
+            font-size: 2.25vw;
+            margin-bottom: 3vw;
+        }
     }

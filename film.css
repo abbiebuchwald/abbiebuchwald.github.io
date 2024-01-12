@@ -13,6 +13,13 @@ a{
     margin-left: 5vw;
     margin-right: auto;
 }
+@media only screen and (max-width: 1080px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
 #flex-container{
     display: flex;
     margin: 2vw;
@@ -24,22 +31,59 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item2{
+        display:flex;
+        font-size: 3vw;
+}
+}
 #flex-item3{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item3{
+        display:flex;
+        font-size: 3vw;
+}
 }
 #flex-item4{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 1080px){
+    #flex-item4{
+        display:flex;
+        font-size: 3vw;
+}
+}
 #flex-item5{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-item5{
+        display:flex;
+        font-size: 3vw;
+}
+}
+@media only screen and (max-width: 1080px){
+    nav{ 
+        margin-right: 3vw;
+       
+}
+
 }
 #back{
     width: 10%;
     margin-left: 1vw;
     margin-top: -2vw;
+}
+@media only screen and (max-width: 1080px){
+    #back{
+        width: 15%;
+        margin-left: 1.5vw;
+}
 }
 h3{
     text-align: center;
@@ -49,25 +93,34 @@ h3{
     margin-left: 15vw;
     margin-right: 15vw;
 }
-#flex-container2{
+@media only screen and (max-width: 1080px){
+    h3{
+       font-size: 2.5vw;
+}
+}
+#flex-container2,#flex-container3, #flex-container4, #flex-container5{
     display: flex;
     margin: 2vw;
 }
-#flex-container3{
-    display: flex;
-    margin: 2vw;
+@media only screen and (max-width: 1080px){
+    #flex-container2,#flex-container3, #flex-container4, #flex-container5{
+       display: inline;
+       margin: 1vw;
 }
-#flex-container4{
-    display: flex;
-    margin: 2vw;
-}
-#flex-container5{
-    display: flex;
-    margin: 2vw;
 }
 #bball, #maria, #climb, #raphi, #venice, #talia, #firenze, #bean{
     width: 45%;
     border-radius: 25px;
+}
+@media only screen and (max-width: 1080px){
+    #bball, #maria, #climb, #raphi, #venice, #talia, #firenze, #bean{
+       display: inline;
+       width: 90%;
+       margin-top: 5vw;
+       margin-bottom: 5vw;
+       margin-left: 3vw;
+       margin-right: 3vw;
+}
 }
 footer{
     text-align: center;
@@ -75,4 +128,10 @@ footer{
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5vw;
+}
+@media only screen and (max-width: 1080px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
 }
