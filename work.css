@@ -13,6 +13,14 @@ a{
     margin-left: 5vw;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 480px){
+    .logo{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+}
 #flex-container{
     display: flex;
     margin: 2vw;
@@ -24,17 +32,54 @@ a{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 480px){
+    #flex-item2{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
 #flex-item3{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 480px){
+    #flex-item3{
+        display:flex;
+        font-size: 2.5vw;
+}
 }
 #flex-item4{
     display:flex;
     font-size: 1.25vw;
 }
+@media only screen and (max-width: 480px){
+    #flex-item4{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
 #flex-item5{
     display:flex;
     font-size: 1.25vw;
+}
+@media only screen and (max-width: 480px){
+    #flex-item5{
+        display:flex;
+        font-size: 2.5vw;
+}
+}
+@media only screen and (max-width: 480px){
+    nav{ 
+        margin-right: 2vw;
+       
+}
+
+}
+@media only screen and (max-width: 480px){
+    #main-content{
+        display: flex;
+     
+}
 }
 .workmenu{
     display:flex;
@@ -47,6 +92,13 @@ a{
     margin-left:5vw;
     margin-right: 5vw;
 }
+@media only screen and (max-width: 480px){
+    #flex-container2{
+        display: inline-block;
+        font-size: 2.5vw;
+        margin-right: -2vw;
+}
+}
 .worktext{
     text-align: center;
     color: blue;
@@ -55,6 +107,11 @@ a{
     margin-bottom: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+@media only screen and (max-width: 480px){
+    .worktext{
+        font-size: 2vw;
+}
 }
 #flex-item6{
     display:inline;
@@ -95,6 +152,12 @@ a{
     margin-top: 5vw;
     
 }
+@media only screen and (max-width: 480px){
+    #flex-container3{
+        display: inline-block;
+        font-size: 2.5vw;
+}
+}
 #flex-item10{
     display:inline;
     width: 200%;
@@ -128,5 +191,11 @@ footer{
     color: blue;
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
+    text
+}
+@media only screen and (max-width: 480px){
+    footer{
+        font-size: 2.25vw;
+        margin-bottom: 3vw;
+    }
 }
