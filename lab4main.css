@@ -14,7 +14,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     .logo{
         margin-top: 5vw;
         margin-bottom: 2vw;
@@ -30,7 +30,7 @@
     margin-bottom: 8vw;
     
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     .subtext{
         width: 60%;
     }
@@ -42,7 +42,7 @@
     margin-top: -1vw;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     #flex-container{
         display: inline;
         width: 100%;
@@ -52,7 +52,7 @@ img{
     display:flex;
     width: 100%;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     img{
        
         width: 100%;
@@ -65,7 +65,7 @@ img{
     margin-right:2%;
     margin-left:0%;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     #flex-item1{
        
         width: 100%;
@@ -79,7 +79,7 @@ img{
     margin-right:2%;
     margin-left:2%;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     #flex-item2{
        
         width: 100%;
@@ -93,7 +93,7 @@ img{
     margin-right: 0%;
 
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     #flex-item3{
         width: 100%;
         margin-left: 0%;
@@ -114,7 +114,7 @@ footer{
     
 
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
     footer{
         font-size: 2.25vw;
         margin-bottom: 3vw;
