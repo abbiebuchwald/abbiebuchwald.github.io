@@ -140,6 +140,11 @@ h4{
 #flex-container2{
     display: flex;
 }
+@media only screen and (max-width: 1080px){
+    #flex-container2{
+       margin-bottom: 15vw;
+}
+}
 #table{
     width:40%;
 }
@@ -149,6 +154,11 @@ h4{
 #flex-container3{
     display:flex;
     margin-bottom: 5vw;
+}
+@media only screen and (max-width: 1080px){
+    #flex-container3{
+       margin-bottom: 15vw;
+}
 }
 #breath1{
     width: 40%;
