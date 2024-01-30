@@ -7,6 +7,13 @@ a{
     color:blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.logo{
+    display: block;
+    height:auto;
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: auto;
+}
 @media only screen and (max-width: 1080px){
     .logo{
         margin-top: 5vw;
