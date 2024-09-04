@@ -103,6 +103,12 @@ h3{
 }
 img{
     border-radius: 25px;
+
+}
+#printfolio{
+    margin-left: 25vw; 
+    width: 50%;
+    margin-bottom: 5vw;
 }
 h4{
     color:blue;

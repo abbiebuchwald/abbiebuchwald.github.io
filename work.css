@@ -83,8 +83,9 @@ a{
 }
 .workmenu{
     display:flex;
-    width: 70%;
+    width: 60%;
     border-radius: 75px;
+    margin-bottom: 3vw;
 }
 @media only screen and (max-width: 1080px) {
     .workmenu{
