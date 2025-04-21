@@ -1,9 +1,7 @@
 @font-face {
     font-family: 'NeueHaasGrotesk';
     src: url(NeueHaasGrotesk.otf);
-}
-*{
-    margin: auto;
+    font-size: 5vw;
 }  
 a{
     text-decoration:none;
@@ -11,214 +9,101 @@ a{
     font-family: 'NeueHaasGrotesk';
     font-weight: bold;
 }
+#flex-container{
+    display: flex;
+    padding-right: 5vw;
+}
+.logo{
+    width: 30%;
+    display: flex;
+}
+.nav li a{
+    display:inline-flex;
+    list-style-type: none;
+  }
+#flex-container1{
+    display: inline-flex;
+}
 p{
     text-decoration:none;
     color: #363795;
     font-family: 'NeueHaasGrotesk';
     
 }
-#bio{
-    margin-left: 5vw;
-    margin-right: 2vw;
-    font-size: larger;
-}
-.logo{
-    width: 25%;
-}
-
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px)
     .logo{
        width: 50%;
     }
-}
-.portfolio{
-    width: 300%;
-    margin-left: 2vw;
-}
-#projects{
-    margin-left:6vw;
-    font-weight: bold;
-    font-size: xx-large;
-}
-#flex-container{
-    display: flex;
-    margin: 2vw;
-}
-#flex-item1{
-    display:flex;
-}
-#flex-item{
-    display:flex;
-    margin-right: 5vw;
-}
-@media only screen and (max-width: 1080px){
-    #flex-item2{
-        display:flex;
-        font-size: 3vw;
-        
-}
-}
-#flex-item3{
-    display:flex;
-    font-size: 1.25vw;
-}
-@media only screen and (max-width: 1080px){
-    #flex-item3{
-        display:flex;
-        font-size: 3vw;
-}
-}
-#flex-item4{
-    display:flex;
-    font-size: 1.25vw;
-}
-@media only screen and (max-width: 1080px){
-    #flex-item4{
-        display:flex;
-        font-size: 3vw;
-}
-}
-#flex-item5{
-    display:flex;
-    font-size: 1.25vw;
-}
-@media only screen and (max-width: 1080px){
-    #flex-item5{
-        display:flex;
-        font-size: 3vw;
-}
-}
-@media only screen and (max-width: 1080px){
-    nav{ 
-        margin-right: 3vw;
-       
-}
 
-}
-@media only screen and (max-width: 1080px){
-    #main-content{
-        display: flex;
-     
-}
-}
-.workmenu{
-    display:flex;
-    width: 60%;
-    border-radius: 75px;
-    margin-bottom: 3vw;
-}
-@media only screen and (max-width: 1080px) {
-    .workmenu{
-        margin-top: 2vw;
-        margin-bottom: 5vw;
-        width: 85%
-    }
-}
-#flex-container2{
-    display: flex;
-    margin-top: 5vw;
-    margin-left:5vw;
-    margin-right: 5vw;
-}
-@media only screen and (max-width: 1080px){
-    #flex-container2{
-        display: inline-block;
-        font-size: 2.5vw;
-        margin-right: -2vw;
-}
-}
-.worktext{
-    text-align: center;
+hr{
     color: #363795;
-    font-size: 1vw;
-    margin-top: -1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 0px;
+}
+#video{
+    margin-left: 4vw;
+    margin-right: 5vw;
+    width: 200%;
+}
+#bio{
+
+    font-size: 1.25vw;
+    margin-right: 7vw;
+}
+
+
+h2{
     font-family: 'NeueHaasGrotesk';
-    font-weight: bold;
-}
-@media only screen and (max-width: 1080px){
-    .worktext{
-        font-size: 3vw;
-}
-}
-#flex-item6{
-    display:inline;
-    margin-top: 0%;
-    width: 300%;
-    margin-left: -1vw;
-    margin-right: -1vw;
-    
-}
-#flex-item7{
-    display:inline;
-    margin-top: 0%;
-    width: 200%;
-    margin-left: -1vw;
-    margin-right: -1vw;
-   
-}
-#flex-item8{
-    display:inline;
-    margin-top: 0%;
-    width: 200%;
-    margin-left: -1vw;
-    margin-right: -1vw;
+    text-decoration:none;
+    color: #363795;
+    margin-left: 5vw;
+    font-size: xx-large;
 
 }
-#flex-item9{
-    display:inline;
-    margin-top: 0%;
-    width: 300%;
-    margin-left: -1vw;
-    margin-right: -1vw;
-}
-#flex-container3{
+#work{
     display:flex;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vw;
-    margin-top: 5vw;
+    margin-left: 35vw;
+    padding: 1vw;
+}
+#queer{
+    margin: 1vw;
+    width: 250px;
+    height: 250px;
+}
+#agdi{
+    margin: 1vw;
+width: 250px;
+height: 250px;
     
 }
-@media only screen and (max-width: 1080px){
-    #flex-container3{
-        display: inline-block;
-        font-size: 2.5vw;
+#timeline{
+    margin: 1vw;
+    width: 250px;
+height: 250px;
 }
+#work2{
+    display:flex;
+    margin-left:35vw;
+    margin-top: -2vw;
+    padding: 1vw;
 }
-#flex-item10{
-    display:inline;
-    width: 200%;
-    margin-left: -1vw;
-    margin-right: -1vw;
-    margin-top: -5vw;
+
+#work3{
+    display:flex;
+    margin-left:35vw;
+    margin-top: -2vw;
+    padding: 1vw;
 }
-#flex-item11{
-    display:inline;
-    width: 150%;
-    margin-left: -1vw;
-    margin-right: -1vw;
-    margin-top: -5vw;
-}
-#flex-item12{
-    display:inline;
-    width: 325%;
-    margin-left: -2.5vw;
-    margin-right: -2.5vw;
-    margin-top: -2.5vw;
-}
-#flex-item13{
-    display:inline;
-    width: 200%;
-    margin-left: -1vw;
-    margin-right: .5vw;
-    margin-top: -7vw;
+#collage, #stamp, #murmur, #table{
+    margin: 1vw;
+    width: 250px;
+height: 250px;
 }
 footer{
     text-align: center;
     color: #363795;
     font-size: 1vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10vw;
 }
 @media only screen and (max-width: 1080px){
     footer{
